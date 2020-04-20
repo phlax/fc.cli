@@ -1,2 +1,1 @@
-include pysh/test/wrapper.sh
-include REAMDE.md
+include README.md

@@ -43,7 +43,7 @@ setup(
         'Programming Language :: Python :: 3',
         'Topic :: Software Development :: Libraries :: Python Modules'
     ],
-    packages=find_namespace_packages(include=["fc.cli.*"]),
+    packages=find_namespace_packages(include=["fc.*"]),
     include_package_data=True,
     zip_safe=False,
     install_requires=REQUIREMENTS,

@@ -17,7 +17,7 @@ class FatControllerRunner(object):
         return subprocess.run(shlex.split(command) + list(args))
 
     def handle_exec(self, command, *args):
-        self.cmd("docker-compose exec fat-controller %s" % command, *args)
+        self.cmd("docker-compose exec fatc %s" % command, *args)
 
     def handle_journalctl(self, *args):
         self.handle_exec("journalctl", *args)

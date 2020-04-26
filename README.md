@@ -1,2 +1,2 @@
 # fc.cli
-CLI for fat-controller container manager
+CLI for fatc container manager

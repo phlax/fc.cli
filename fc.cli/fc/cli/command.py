@@ -5,7 +5,7 @@ from .runner import FatControllerRunner
 
 
 class FatControllerCommand(object):
-    description = "CLI for fat-controller container management"
+    description = "CLI for fatc container management"
 
     def run(self, *args, **kwargs):
         """Run command."""
